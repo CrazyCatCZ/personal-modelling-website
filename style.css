@@ -71,9 +71,9 @@ nav a {
 }
 
 /* ***********End of header********* */
-.contactme-secm,
-.myWorkSec,
-.about-me-section {
+.contact-me,
+.my-work,
+.about-me {
   margin: 30px;
 }
 .section-wrapper {
@@ -176,7 +176,7 @@ nav a {
 }
 
 /* my work */
-.myWorkSec {
+.my-work {
   .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -206,7 +206,7 @@ nav a {
 }
 
 /* Contact ME */
-.contactme-sec {
+.contact-me {
   margin-top: 100px;
 }
 .h1-sec {
@@ -386,15 +386,15 @@ nav a {
   .header-wrapper nav {
     display: none;
   }
-  .contactme-secm,
-  .myWorkSec,
-  .about-me-section {
+  .contact-me,
+  .my-work,
+  .about-me {
     margin: 0px;
   }
 }
 
 @media (width < 600px) {
-  .myWorkSec {
+  .my-work {
     .parent {
       display: flex;
       align-items: center;
