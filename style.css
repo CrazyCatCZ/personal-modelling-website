@@ -31,6 +31,9 @@ font-family: 'Sarala', sans-serif;
     margin: 0 auto;
 }
 
+.wrapper{
+    overflow-x: hidden;
+}
 
 /* ***********header********* */
 .header{
@@ -66,6 +69,7 @@ nav a {
     color: var(--black);
     font-weight: bold;
 }
+
 /* ***********End of header********* */
 .contactme-secm, .myWorkSec, .about-me-section{
     margin: 30px;
@@ -216,7 +220,7 @@ nav a {
             display: flex;
             flex-direction: column;
 
-            label{
+            .label{
                 font-weight: bold;
                 font-size: 17px;
                 color: #fff;
@@ -248,16 +252,16 @@ nav a {
             margin-bottom: 10px;
         }
 
-        ul{
+        .icon-list{
             list-style: none;
 
-            li{
+            .socail-link{
                 display: flex;
                 align-items: center;
                 color: #fff;
                 gap: 5px;
 
-                a{
+                .link-contact{
                     text-decoration: none;
                     color: #fff;
                 }
@@ -268,7 +272,7 @@ nav a {
             flex-direction: column;
             color: #fff;
 
-            a{
+            .link-contact{
                 text-decoration: none;
                 color: #fff;
             }
@@ -364,11 +368,6 @@ nav a {
 @media (width < 600px){
     .myWorkSec{
         .parent {
-            /* display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-column-gap: 10px;
-            grid-row-gap: 10p; */
             display: flex;
             align-items: center;
             flex-direction: column;
