@@ -150,6 +150,7 @@ nav a {
 .boxs{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     .small-box{
         background-color: #fff;
