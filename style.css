@@ -95,12 +95,12 @@ nav a {
 .left-box{
     max-width: 50%;
     width: 50%;
-    height: 640px;
+    height: 600px;
 }
 .right-box{
     max-width: 50%;
     width: 50%;
-    height: 600px;
+    height: 640px;
 
     .image-sec{
         border-radius: 10px;
@@ -150,7 +150,6 @@ nav a {
 .boxs{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     .small-box{
         background-color: #fff;
@@ -321,6 +320,11 @@ nav a {
                 border-radius: 10px;
                 width: 100%;
             }
+        }
+        .boxs {
+            
+            justify-content: center;
+            
         }
     }
 
