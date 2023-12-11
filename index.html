@@ -17,7 +17,7 @@
 
             <nav>
               <ul>
-                <li><a href="#">ABOUT ME</a></li>
+                <li><a href="">ABOUT ME</a></li>
                 <li><a href="#">MY WORK</a></li>
                 <li><a href="#">CONTACT ME</a></li>
               </ul>
@@ -99,22 +99,34 @@
               <div class="box-content contactme">
                 <form action="" class="form">
                   <div class="input-wrapper">
-                    <label class="label" for="">Your Name</label>
-                    <input class="input" type="text" name="name" id="" />
+                    <label for="input-name" class="label">Your Name</label>
+                    <input
+                      autocomplete="additional-name"
+                      class="input"
+                      type="text"
+                      name="name"
+                      id="input-name"
+                    />
                   </div>
 
                   <div class="input-wrapper">
-                    <label class="label" for="">Your Email</label>
-                    <input class="input" type="email" name="email" id="" />
+                    <label for="input-email" class="label">Your Email</label>
+                    <input
+                      autocomplete="email"
+                      class="input"
+                      type="email"
+                      name="email"
+                      id="input-email"
+                    />
                   </div>
 
                   <div class="input-wrapper">
-                    <label class="label" for="">Message</label>
+                    <label for="input-message" class="label">Message</label>
                     <textarea
                       class="input message-input"
                       type="text"
-                      name="massage"
-                      id=""
+                      name="message"
+                      id="input-message"
                     ></textarea>
                   </div>
                 </form>
