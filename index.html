@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Jakub</title>
+    <title>Anna Hetflejšová</title>
   </head>
   <body>
     <main class="wrapper">
@@ -101,10 +102,15 @@
 
             <div class="right-box contactme">
               <div class="box-content contactme">
-                <form action="" class="form">
+                <form
+                  action="https://formsubmit.co/plechac.k@gmail.com"
+                  method="POST"
+                  class="form"
+                >
                   <div class="input-wrapper">
                     <label for="input-name" class="label">Your Name</label>
                     <input
+                      required
                       autocomplete="additional-name"
                       placeholder="Name..."
                       class="input"
@@ -117,6 +123,7 @@
                   <div class="input-wrapper">
                     <label for="input-email" class="label">Your Email</label>
                     <input
+                      required
                       autocomplete="email"
                       placeholder="Email..."
                       class="input"
@@ -129,6 +136,7 @@
                   <div class="input-wrapper">
                     <label for="input-message" class="label">Message</label>
                     <textarea
+                      required
                       class="input message-input"
                       placeholder="Message..."
                       type="text"
@@ -136,14 +144,14 @@
                       id="input-message"
                     ></textarea>
                   </div>
+                  <button type="submit" class="btn form-btn">Submit</button>
                 </form>
-                <button class="btn form-btn">Submit</button>
 
                 <div class="box-footer-wrapper">
                   <div class="box-footer">
                     <h2 class="h2-box-footer">Follow Us</h2>
                     <ul class="icon-list">
-                      <li class="socail-link">
+                      <li class="social-link">
                         <img src="./images/insta.svg" alt="" /><a
                           target="_blank"
                           class="link-contact"
@@ -151,7 +159,7 @@
                           >ahetfl</a
                         >
                       </li>
-                      <li class="socail-link">
+                      <li class="social-link">
                         <img src="./images/facebook.svg" alt="" /><a
                           target="_blank"
                           class="link-contact"

@@ -229,6 +229,7 @@ nav a {
       flex-direction: column;
 
       .label {
+        margin-bottom: 0.5em;
         font-weight: bold;
         font-size: 17px;
         color: #fff;
@@ -266,7 +267,7 @@ nav a {
     .icon-list {
       list-style: none;
 
-      .socail-link {
+      .social-link {
         display: flex;
         align-items: center;
         color: #fff;
