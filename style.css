@@ -95,6 +95,7 @@ nav a {
   max-width: 50%;
   width: 50%;
   height: 600px;
+  display: flex;
 }
 .right-box {
   max-width: 50%;
@@ -141,8 +142,10 @@ nav a {
   font-weight: bold;
 }
 .p-aboutme {
+  width: 90%;
   font-size: 20px;
   color: #404040;
+  line-break: auto;
 }
 
 .boxs {
@@ -163,10 +166,12 @@ nav a {
 
     .h5-aboutme {
       font-size: 20px;
+      font-weight: lighter;
       color: #371c50;
     }
     .p-small-box {
       font-weight: bold;
+      font-size: 20px;
       color: #371c50;
     }
   }
@@ -213,7 +218,6 @@ nav a {
 #contact-me-container {
   background: linear-gradient(180deg, #6f4694 0%, #631363 100%);
 }
-
 .left-box.contactme {
   height: 757px;
 }
@@ -297,7 +301,10 @@ nav a {
 }
 
 /* for mobile screen */
-@media (width < 1300px) {
+@media (width < 900px) {
+  .p-aboutme {
+    width: 100%;
+  }
   .contact-button {
     display: flex;
     justify-content: center;
