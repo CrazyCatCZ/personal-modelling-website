@@ -297,7 +297,14 @@ nav a {
 }
 
 /* for mobile screen */
-@media (width < 1230px) {
+@media (width < 1300px) {
+  .contact-button {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-a-tag {
+    text-decoration: none;
+  }
   .section-wrapper.aboutme {
     flex-direction: column-reverse;
 
@@ -381,13 +388,16 @@ nav a {
   }
 }
 @media (width < 800px) {
-  .header-wrapper nav {
-    display: none;
-  }
   .contact-me,
   .my-work,
   .about-me {
-    margin: 0px;
+    margin: 30px 0px;
+  }
+  #my-work img {
+    width: 100%;
+  }
+  .logo-wrapper {
+    margin: auto;
   }
 }
 
@@ -403,5 +413,11 @@ nav a {
         width: 100%;
       }
     }
+  }
+}
+
+@media (width < 500px) {
+  .header-wrapper nav {
+    display: none;
   }
 }
