@@ -301,7 +301,7 @@ nav a {
 }
 
 /* for mobile screen */
-@media (width < 900px) {
+@media (width < 1350px) {
   .p-aboutme {
     width: 100%;
   }
