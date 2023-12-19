@@ -101,10 +101,13 @@ nav a {
   max-width: 50%;
   width: 50%;
   height: 640px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
 
   .image-sec {
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
   }
@@ -142,7 +145,7 @@ nav a {
   font-weight: bold;
 }
 .p-aboutme {
-  width: 90%;
+  width: 105%;
   font-size: 20px;
   color: #404040;
   line-break: auto;
@@ -301,9 +304,11 @@ nav a {
 }
 
 /* for mobile screen */
-@media (width < 1350px) {
+@media (width < 1050px) {
   .p-aboutme {
-    width: 100%;
+    text-align: center;
+    margin: auto;
+    width: 90% !important;
   }
   .contact-button {
     display: flex;
