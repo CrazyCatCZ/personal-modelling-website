@@ -97,6 +97,13 @@ nav a {
   height: 600px;
   display: flex;
 }
+
+#main-image-div {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
 .right-box {
   max-width: 50%;
   width: 50%;
