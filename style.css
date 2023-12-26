@@ -101,9 +101,6 @@ nav a {
   max-width: 50%;
   width: 50%;
   height: 640px;
-  display: flex;
-  justify-content: right;
-  align-items: right;
 
   .image-sec {
     border-radius: 10px;
